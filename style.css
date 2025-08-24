@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+:root {
+  --Primary-400: #57a203;
+  --Neutral-900: #212529;
+  --Neutral-300: #dee2e6;
+  --Neutral-100: #f8f9fa;
+  --Neutral-600: #6c757d;
+}
+
+.header {
+  background-image: url(./2025-week1/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 151px;
+  padding-bottom: 151px;
+  text-align: center;
+}
+
+body,
+footer {
+  color: var(--Neutral-900);
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+
+.h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.h4 {
+  color: var(--Neutral-900);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.h5 {
+  color: var(--Primary-400);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.py-64 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.container {
+  width: 856px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.intro {
+  background-color: #f5fee7;
+  padding: 32px;
+  text-align: center;
+}
+
+.sectionline {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.about img {
+  width: 1076px;
+  margin-left: -110px;
+  margin-right: -110px;
+}
+
+.history ul {
+  list-style: disc;
+  margin-left: 24px;
+}
+
+.historyyear {
+  margin-right: 8px;
+}
+
+.historytext {
+  padding-left: 8px;
+  border-left: 1px solid var(--Neutral-900);
+}
+
+.idea li {
+  border-left: 3px solid #dee2e6;
+  padding-left: 12px;
+}
+
+.story a {
+  color: var(--Primary-400);
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  display: block;
+}
+
+.bi {
+  margin-right: 8px;
+}
+
+.footer {
+  background: var(--Neutral-100);
+  color: var(--Neutral-600);
+  font-size: 14px;
+  text-align: center;
+}
